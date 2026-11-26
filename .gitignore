@@ -1,0 +1,20 @@
+# Company-confidential material never leaves this machine.
+# Real product files, competitor notes, results, prospect lists and the raw canvas live here.
+/private/
+
+# Your filled-in shared memory (real company facts). Templates live in templates/context/.
+/context/
+
+# Secrets
+.env
+.env.*
+*.key
+*credentials*
+.claude/settings.local.json
+
+# Exports that often carry real data
+*.csv
+!templates/**/*.csv
+*.xlsx
+
+.DS_Store
