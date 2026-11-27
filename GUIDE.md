@@ -22,7 +22,7 @@ We build this one step at a time. Each step ends with something you can use at w
 - [x] **0. Pull in the canvas and set up guardrails** — `private/canvas.md` (the full internal company canvas, never published), `.gitignore`, `private/denylist.txt`, `scripts/check-ip.sh`
 - [x] **1. Repo home and name** — its own public repo, `marketing-system`; templates use `{{placeholders}}`, no example company
 - [x] **2. Shared memory templates** — `templates/context/`: brand core and expressions, product file, competitor tracker, messaging matrix. `./scripts/setup-context.sh <product-slugs>` copies them into git-ignored `context/` to fill in
-    - [x] **2a. Brand split into five parts** — philosophy, personas, UVP, voice and writing, design system; `core.md` is the index and audit. First skill: `skills/brand-writer/`
+    - [x] **2a. Brand split into five parts** — philosophy, personas, UVP, voice and writing, design system; `core.md` is the index and audit.
     - [ ] **2b. Approve the brand drafts** — decide the 8 known inconsistencies in `context/brand/core.md`, confirm beliefs and the "we never" list, validate personas with real conversations
     - [x] **2c. Product files** — five products drafted from factsheets, Slack and Drive; services in `context/services/`
     - [x] **2d. Product information flow** — `docs/product-information-flow.md`: sources → compiler → product folders → competitor research, website, content, campaigns, channel testing
